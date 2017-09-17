@@ -1422,7 +1422,6 @@ section.special, article.special {
 header p {
   color: #a8b0b3;
   letter-spacing: 0.05em;
-  font-style: italic;
   text-transform: uppercase; }
 header h1 + p {
   margin-top: -1em; }
@@ -1438,17 +1437,20 @@ header h6 + p {
 header.major {
   text-align: center; }
   header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-    position: relative; }
-    header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
-      background: #dddddd;
-      content: '';
-      display: block;
-      height: 2px;
-      margin: 0.75em auto 0 auto;
-      position: relative;
-      width: 4em; }
+    position: relative;
+    /*
+    &:after {
+    	background: _palette(border);
+    	content: '';
+    	display: block;
+    	height: 2px;
+    	margin: 0.75em auto 0 auto;
+    	position: relative;
+    	width: 4em;
+    }
+    */ }
   header.major p {
-    margin-top: 0; }
+    margin-top: -0.2; }
 
 /* Form */
 form {
