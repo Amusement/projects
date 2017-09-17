@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://amusement.github.io/projects/"
 languageCode = "en-us"
-title = "Highlights"
+title = "Nafisa Shazia"
 theme = "hugo-highlights-theme"
 publishDir = "docs"
 
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "Nafisa Shazia"
+  description = "A showcase of my projects and interests."
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -31,7 +31,7 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "your@mail.com"
+  email = "d3w9a@ugrad.cs.ubc.ca"
 
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
@@ -42,21 +42,12 @@ googleAnalytics = ""
   [params.hero]
     title = "Nafisa Shazia"
     description = "A meandering look at the projects I've been working on."
-    buttontext = "begin"
-
-  # about section
-  [params.about]
-    enable = true
-    title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    buttontext = "next"
-    # the picture is storead at static/images/
-    picture = "pic01.jpg"
+    buttontext = "Begin"
 
   # skill section
   [params.skill_list]
     enable = true
-    title = "Stuff I do"
+    title = "Interests are many."
     description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
     buttontext = "next"
     # the picture is storead at static/images/
@@ -77,7 +68,19 @@ googleAnalytics = ""
     [[params.skills]]
       icon = "fa-coffee"
       title = "Sed Feugiat"
-  # infos section
+
+  # about section
+  [params.about]
+    enable = true
+    title = "Who am I"
+    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    buttontext = "next"
+    # the picture is storead at static/images/
+    picture = "pic01.jpg"
+
+
+
+# infos section
   [params.infos]
     enable = true
     title = "One more thing"
