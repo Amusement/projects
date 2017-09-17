@@ -48,32 +48,32 @@ googleAnalytics = ""
   [params.skill_list]
     enable = true
     title = "Interests are many."
-    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+    description = "But time is short."
     buttontext = "next"
     # the picture is storead at static/images/
     picture = "pic01.jpg"
 
     [[params.skills]]
-      icon = "fa-camera-retro"
-      title = "Magna Etiam"
+      icon = "fa-puzzle-piece"
+      title = "Hackathons"
 
     [[params.skills]]
       icon = "fa-pencil"
-      title = "Lorem Ipsum"
+      title = "Reading"
 
     [[params.skills]]
       icon = "fa-code"
-      title = "Nulla Tempus"
+      title = "Prototyping"
 
     [[params.skills]]
-      icon = "fa-coffee"
-      title = "Sed Feugiat"
+      icon = "fa-sitemap"
+      title = "Distributed Systems"
 
   # about section
   [params.about]
     enable = true
-    title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    title = "AWS Networking Diagnostics"
+    description = "A command-line debugging tool developed for an internal hackathon at Hootsuite."
     buttontext = "next"
     # the picture is storead at static/images/
     picture = "pic02.jpg"
@@ -83,8 +83,8 @@ googleAnalytics = ""
 # infos section
   [params.infos]
     enable = true
-    title = "One more thing"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    title = "Perfect Place For Me"
+    description = "A web application developed for Hack the North 2016."
     # the picture is storead at static/images/
     picture = "pic03.jpg"
 

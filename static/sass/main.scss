@@ -366,6 +366,7 @@
 			h1, h2, h3, h4, h5, h6 {
 				position: relative;
 
+				/*
 				&:after {
 					background: _palette(border);
 					content: '';
@@ -375,10 +376,11 @@
 					position: relative;
 					width: 4em;
 				}
+				*/
 			}
 
 			p {
-				margin-top: 0;
+				margin-top: -0.2;
 			}
 		}
 	}
