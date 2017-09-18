@@ -898,6 +898,21 @@
 		}
 	}
 
+/* Aside */
+	aside {
+		left: 20%;
+		top: 30%;
+		position: fixed;
+		z-index: 1;
+
+		.floating {
+			color: white !important;
+			font-family: "Crimson Text", serif;
+			width: 12em;
+			box-shadow: inset 0 0 0 2px white;
+		}
+	}
+
 /* Button */
 
 	input[type="submit"],
@@ -911,7 +926,8 @@
 		border-radius: 0;
 		border: 0;
 		box-shadow: inset 0 0 0 2px _palette(border);
-		color: _palette(fg-bold) !important;
+		/*color: _palette(fg-bold) !important;*/
+		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
 		font-weight: _font(weight-bold);

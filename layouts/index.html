@@ -11,6 +11,8 @@
 	<body>
 		{{ partial "hero.html" . }}
 
+		{{ partial "goto.html" . }}
+
 		{{ if .Site.Params.skill_list.enable }}
 			{{ partial "skills.html" . }}
 		{{ end }}

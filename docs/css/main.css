@@ -1820,6 +1820,18 @@ table {
     table.alt tfoot {
       border-top: 0; }
 
+/* Aside */
+aside {
+  left: 20%;
+  top: 30%;
+  position: fixed;
+  z-index: 1; }
+  aside .floating {
+    color: white !important;
+    font-family: "Crimson Text", serif;
+    width: 12em;
+    box-shadow: inset 0 0 0 2px white; }
+
 /* Button */
 input[type="submit"],
 input[type="reset"],
@@ -1838,7 +1850,8 @@ button,
   border-radius: 0;
   border: 0;
   box-shadow: inset 0 0 0 2px #dddddd;
-  color: #61686b !important;
+  /*color: _palette(fg-bold) !important;*/
+  color: #61686b;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
