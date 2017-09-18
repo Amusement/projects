@@ -90,6 +90,10 @@
 				$headerTitle = $header.find('header'),
 				$headerContainer = $header.find('.container');
 
+		// Aside.
+			var $aside = $('#aside'),
+				$asideContent = $aside.find('aside');
+
 			// Make title fixed.
 				if (!skel.vars.mobile) {
 
@@ -128,6 +132,11 @@
 			// Scrollex.
 				skel.on('-small !small', function() {
 					$header.scrollex({
+						initialize: function() {
+						
+							$asideContent.css('opacity', 0);
+
+						},
 						terminate: function() {
 
 							$headerTitle.css('opacity', '');
@@ -141,7 +150,8 @@
 								else
 									x = progress;
 
-								$headerTitle.css('opacity', Math.max(0, Math.min(1, x * 2)));
+								$headerTitle.css('opacity', Math.max(0, Math.min(1, x * 3)));
+								$asideContent.css('opacity', Math.min(1, -(0.5-progress)));
 
 						}
 					});

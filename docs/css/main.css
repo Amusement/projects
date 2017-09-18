@@ -1825,7 +1825,8 @@ aside {
   left: 20%;
   top: 30%;
   position: fixed;
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0; }
   aside .floating {
     color: white !important;
     font-family: "Crimson Text", serif;
