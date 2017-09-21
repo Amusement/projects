@@ -143,10 +143,10 @@ googleAnalytics = ""
     #[params.footer.copyright.notice]
 
       [[params.footer.copyright.notice]]
-        text = "© Untitled"
+        text = "Last updated September 2017"
 
       [[params.footer.copyright.notice]]
         text = "Design: [HTML5UP](//html5up.net)"
 
-      [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
+      #[[params.footer.copyright.notice]]
+      #  text = "Demo Images: [Unsplash](//unsplash.com/)"
